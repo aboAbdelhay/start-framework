@@ -10,7 +10,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const routers = createBrowserRouter([
   {
-    path: "startFramework/",
+    path: "",
     element: <Layout />,
     children: [
       { index: true, element: <Home /> },
